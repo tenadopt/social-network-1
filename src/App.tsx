@@ -4,21 +4,46 @@ import './App.css';
 
 function App() {
     return (
-        <div className="App-wrapper">
+        <div className="app-wrapper">
             <header className='header'>
-                <div>
-                    Hello world
-                    <img src='https://www.vectorstock.com/royalty-free-vector/basketball-logo-vector-2216393'/>
-                </div>
+                <img
+                    src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiRppt6rof60oGOUxQNjJOKCF1cjabgf2I_muZYMn4oMATqubTUcW4qjfWtHV5S6nsl9w&usqp=CAU'/>
             </header>
             <nav className='nav'>
                 <div>
-                    Message
+                    Profile
+                </div>
+                <div>
+                    Messages
+                </div>
+                <div>
+                    News
+                </div>
+                <div>
+                    Music
+                </div>
+                <div>
+                    Settings
                 </div>
             </nav>
             <div className='content'>
                 <div>
-                    Main Content
+                    <img
+                        src='https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/advice/maps-satellite-images/satellite-image-of-globe.jpg'/>
+                </div>
+                <div>
+                    ava+sescription
+                </div>
+                <div>
+                    My post
+                    <div>
+                        New post
+                    </div>
+                    <div>
+                        Old post
+                        <div>post 1</div>
+                        <div>post 2</div>
+                    </div>
                 </div>
             </div>
 
