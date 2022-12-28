@@ -12,8 +12,8 @@ export const MyPosts = () => {
             </div>
             <div className='posts'>
                 Old post
-                <Post message='How are you?' likecount={15}/>
-                <Post message="It's my first post" likecount={20}/>
+                <Post message='How are you?' likescount={15}/>
+                <Post message="It's my first post" likescount={20}/>
             </div>
         </div>
     );
