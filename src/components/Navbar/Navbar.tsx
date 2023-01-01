@@ -20,13 +20,13 @@ export const Navbar = () => {
                     <NavLink to='/messages' className={classNameFunc} >Messages</NavLink>
                 </div>
                 <div className={s.item}>
-                    <a>News</a>
+                    <NavLink to='/news' className={classNameFunc} >News</NavLink>
                 </div>
                 <div className={s.item}>
-                    <a>Music</a>
+                    <NavLink to='/music' className={classNameFunc} >Music</NavLink>
                 </div>
                 <div className={s.item}>
-                    <a>Settings</a>
+                    <NavLink to='/settings' className={classNameFunc} >Settings</NavLink>
                 </div>
             </nav>
     );
