@@ -12,6 +12,7 @@ export const Navbar = () => {
     const classNameFunc = ({isActive}: ClassNameFuncType) => (isActive ? s.active_link : "")
 
     return (
+
             <nav className={s.navbar}>
                 <div className={s.item}>
                     <NavLink to='/profile' className={classNameFunc} >Profile</NavLink>
@@ -29,5 +30,6 @@ export const Navbar = () => {
                     <NavLink to='/settings' className={classNameFunc} >Settings</NavLink>
                 </div>
             </nav>
+
     );
 };

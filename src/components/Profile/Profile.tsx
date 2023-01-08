@@ -6,9 +6,11 @@ export const Profile = () => {
     return (
             <div className={classes.content}>
                 <div>
+
                     <img
                         src='https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/advice/maps-satellite-images/satellite-image-of-globe.jpg'/>
                 </div>
+
                 <div>
                     ava+sescription
                 </div>
