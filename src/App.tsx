@@ -20,9 +20,9 @@ function App() {
                     <Routes>
                         <Route path='/profile' element={<Profile/>}/>
                         <Route path='/dialogs' element={<Dialogs/>}/>
-                        <Route path='/dialogs' element={<News/>}/>
-                        <Route path='/dialogs' element={<Music/>}/>
-                        <Route path='/dialogs' element={<Settings/>}/>
+                        <Route path='/news' element={<News/>}/>
+                        <Route path='/music' element={<Music/>}/>
+                        <Route path='/settings' element={<Settings/>}/>
                     </Routes>
                 </div>
             </div>
