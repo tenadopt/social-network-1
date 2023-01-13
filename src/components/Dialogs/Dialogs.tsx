@@ -2,14 +2,15 @@ import React from 'react';
 import s from './Dialogs.module.css'
 import {NavLink} from "react-router-dom";
 
-type DialogI
+type DialogItemType = {
 
-const DialogItem = (props:) => {
+}
+
+const DialogItem = (props:DialogItemType) => {
     return
 }
 export const Dialogs = () => {
     return (
-
         <div className={s.dialogs}>
             <div className={s.dialogsItems}>
                 <div className={s.dialog} >
