@@ -3,7 +3,9 @@ import React from 'react';
 export const News = () => {
     return (
         <div>
-            News
+           <div>Chart</div>
+           <div>Content</div>
+           <div>comments</div>
         </div>
     );
 };
