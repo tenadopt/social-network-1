@@ -6,9 +6,6 @@ export const News = () => {
            <div>Chart</div>
            <div>Content</div>
            <div>comments</div>
-           <div>comments</div>
-           <div>comments</div>
-           <div>comments</div>
         </div>
     );
 };
