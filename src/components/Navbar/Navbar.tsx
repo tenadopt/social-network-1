@@ -8,11 +8,8 @@ type ClassNameFuncType = {
 }
 
 export const Navbar = () => {
-
     const classNameFunc = ({isActive}: ClassNameFuncType) => (isActive ? s.active_link : "")
-
     return (
-
             <nav className={s.navbar}>
                 <div className={s.item}>
                     <NavLink to='/profile' className={classNameFunc} >Profile</NavLink>
