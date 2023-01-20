@@ -8,6 +8,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import {Music} from "./components/Music/Music";
 import {News} from "./components/News/News";
 import {Settings} from "./components/Settings/Settings";
+import {Video} from "./components/Video/Video";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
                         <Route path='/news' element={<News/>}/>
                         <Route path='/music' element={<Music/>}/>
                         <Route path='/settings' element={<Settings/>}/>
+                        <Route path='/video' element={<Video/>}/>
                     </Routes>
                 </div>
             </div>
