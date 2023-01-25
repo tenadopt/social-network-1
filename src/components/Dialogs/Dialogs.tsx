@@ -9,6 +9,7 @@ type DialogItemType = {
 const DialogItem = (props:DialogItemType) => {
     return
 }
+
 export const Dialogs = () => {
     return (
         <div className={s.dialogs}>
@@ -31,7 +32,6 @@ export const Dialogs = () => {
                 <div className={s.dialog}>
                     <NavLink to="/dialogs/6">Lev</NavLink>
                 </div>
-
             </div>
             <div className={s.messages}>
                 <div className={s.message}>Hi</div>
