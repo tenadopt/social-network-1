@@ -1,8 +1,7 @@
 import React from 'react';
 import s from './Dialogs.module.css'
-import {NavLink} from "react-router-dom";
-import {DialogItem} from "./DialogItem";
-import {Message} from "./Message";
+import {DialogItem} from "./DialogItem/DialogItem";
+import {Message} from "./Message/Message";
 
 export const Dialogs = () => {
 
@@ -27,28 +26,20 @@ export const Dialogs = () => {
     return (
         <div className={s.dialogs}>
             <div className={s.dialogsItems}>
-                <div className={s.dialog} >
-                    <NavLink to='/dialogs/1' ><DialogItem name={dialogsData[0].name} id={dialogsData[0].id}/></NavLink>
-                </div>
-                <div className={s.dialog}>
-                    <NavLink to="/dialogs/2"><DialogItem name={dialogsData[0].name} id={dialogsData[0].id}/></NavLink>
-                </div>
-                {/*<div className={s.dialog}>*/}
-                {/*    <NavLink to="/3">Happy</NavLink>*/}
-                {/*</div>*/}
-                {/*<div className={s.dialog}>*/}
-                {/*    <NavLink to="/dialogs/4">Yug</NavLink>*/}
-                {/*</div>*/}
-                {/*<div className={s.dialog}>*/}
-                {/*    <NavLink to="/dialogs/5">Antony</NavLink>*/}
-                {/*</div>*/}
-                {/*<div className={s.dialog}>*/}
-                {/*    <NavLink to="/dialogs/6">Lev</NavLink>*/}
-                {/*</div>*/}
+                <DialogItem id={dialogsData[0].id} name={dialogsData[0].name} />
+                <DialogItem id={dialogsData[1].id} name={dialogsData[1].name} />
+                <DialogItem id={dialogsData[2].id} name={dialogsData[2].name} />
+                <DialogItem id={dialogsData[3].id} name={dialogsData[3].name} />
+                <DialogItem id={dialogsData[4].id} name={dialogsData[4].name} />
+                <DialogItem id={dialogsData[5].id} name={dialogsData[5].name} />
             </div>
             <div className={s.messages}>
                 <Message id={messageData[0].id} message={messageData[0].name}/>
-                <Message id={messageData[0].id} message={messageData[0].name}/>
+                <Message id={messageData[1].id} message={messageData[1].name}/>
+                <Message id={messageData[2].id} message={messageData[2].name}/>
+                <Message id={messageData[3].id} message={messageData[3].name}/>
+                <Message id={messageData[4].id} message={messageData[4].name}/>
+                <Message id={messageData[5].id} message={messageData[5].name}/>
             </div>
         </div>
     )
