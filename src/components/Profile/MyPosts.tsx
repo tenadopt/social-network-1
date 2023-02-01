@@ -13,10 +13,14 @@ export const MyPosts = () => {
         <div className={s.postBlock}>
             <h3>
                 My post
+
             </h3>
+
             <div>
                 <div>
+
                     <textarea></textarea>
+
                 </div>
                 <div>
                     <button>Add post</button>
