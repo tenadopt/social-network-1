@@ -9,6 +9,9 @@ export const MyPosts = () => {
         {id: 2, message: 'Yo', likesCount: 16}
     ]
 
+
+
+
     return (
         <div className={s.postBlock}>
             <h3>
